@@ -1,0 +1,102 @@
+body{
+  color: #ffffff;
+  background-color: rgb(0,20,40);
+
+
+}
+.container{
+  background-color: rgb(0,20,40);
+  
+}
+
+.registration_form{
+  /*width: 360px;
+  padding: 10% 0 0;
+  margin: auto;*/
+  margin-top: 0px;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  background: rgba(7, 40,67, 0.8);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+
+}
+.form_header h1{
+  margin-top: 50px;
+  color: green;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 36px;
+}
+.form input{
+  font-family: sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: green;
+}
+.form button{
+  font-family: "Robot", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border:0;
+  padding: 15px;
+  color: #ffff;
+  font-size: 14px;
+  cursor: pointer;
+  Hover:blue;
+}
+.form button:hover,.form button:active{
+  background: #c0c0c0;
+  color:#ffff00;
+  text-shadow: 50em;
+}
+.form .message{
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 12px;
+}
+.form .message a{
+  color: #4caf50;
+  text-decoration: none;
+}
+
+
+/*three column paragraph*/
+.container2{
+  background-color: rgb(0,20,50);
+}
+.container2 .column {
+  display: table;
+
+}
+.container2 .column .col{
+  display: table-cell;
+  margin-left: 3px;
+  margin-right:3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Gabriola;
+  font-size: 20px;
+  line-height: 22px;
+}
+.container2 .column .col:nth-child(3){
+  width: 400px;
+}
+.container2 .column .col h1{
+  color: green;
+  font-size: 30px;
+  font-family: cursive;
+
+}

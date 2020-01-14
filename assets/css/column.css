@@ -1,0 +1,35 @@
+*{
+  color:#ffffff;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 22px;
+
+}
+.container{
+background-color: rgb(0,30,30);
+margin-top: 50px;
+margin-left:100px;
+margin-right: 100px;
+text-align: left;
+
+}
+.container .column{
+  display: table;
+  margin-right: 50px;
+  margin-left:50px;
+
+}
+.container .column .colm1 {
+  display: table-cell;
+  margin-right: 50px;
+  margin-left:50px;
+
+}
+.container .column .colm1 img{
+  border-radius: 50px;
+
+}
+.container .column .colm1:nth-child(even) {
+  background-color: #c0c0c0;
+
+}
